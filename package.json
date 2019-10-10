@@ -1,7 +1,7 @@
 {
   "name": "note",
   "version": "1.0.0",
-  "description": "Example Node.js application which allows the creation of notes/todos",
+  "description": "Test project for trying out technologies. This has the functionality of creating and editing notes. This is powered by the ME~~A~~N stack (MongoDB, Express.js, ~~Angular~~, Node.js).",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
