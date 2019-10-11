@@ -4,7 +4,7 @@
   "description": "Test project for trying out technologies. This has the functionality of creating and editing notes. This is powered by the ME~~A~~N stack (MongoDB, Express.js, ~~Angular~~, Node.js).",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "Harrison Black",
   "license": "MIT",
@@ -12,5 +12,8 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mongodb": "^3.2.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
   }
 }

@@ -7,12 +7,12 @@ app.set('view engine', 'ejs');
 // MongoDB configuration
 var MongoClient = require('mongodb').MongoClient;
 var noteDbClient = new MongoClient('mongodb://localhost:27017', { useNewUrlParser: true });
-var db;
+
 noteDbClient.connect(function(err) {
     if(err) {
         console.log("Houston we have a (database) problem!");
     } else {
-        db = noteDbClient.db("noteDb");
+        noteDbClient.db("noteDb");
         console.log("Database connection pool successfully created");
     }
 });
