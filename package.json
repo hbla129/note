@@ -4,7 +4,7 @@
   "description": "Test project for trying out technologies. This has the functionality of creating and editing notes. This is powered by the ME~~A~~N stack (MongoDB, Express.js, ~~Angular~~, Node.js).",
   "main": "app.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "karma start"
   },
   "author": "Harrison Black",
   "license": "MIT",
@@ -14,6 +14,9 @@
     "mongodb": "^3.2.2"
   },
   "devDependencies": {
-    "jasmine": "^3.5.0"
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^2.0.1"
   }
 }
